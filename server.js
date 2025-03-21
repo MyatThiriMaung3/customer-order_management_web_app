@@ -13,4 +13,8 @@ app.get("/login", (req, res) => {
     res.render("login", { error: null });
 });
 
+app.get("/staff-dashboard", (req, res) => {
+    res.render("staff-dashboard");
+});
+
 app.listen(3000)
