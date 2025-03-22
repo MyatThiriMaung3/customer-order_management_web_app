@@ -21,4 +21,8 @@ app.get("/staff-menu", (req, res) => {
     res.render("staff-menu");
 });
 
+app.get("/staff-receipt", (req, res) => {
+    res.render("staff-receipt");
+});
+
 app.listen(3000)
