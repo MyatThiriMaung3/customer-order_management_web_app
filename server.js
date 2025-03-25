@@ -25,4 +25,12 @@ app.get("/staff-receipt", (req, res) => {
     res.render("staff-receipt");
 });
 
+app.get("/menu-create", (req, res) => {
+    res.render("menu-create");
+});
+
+app.get("/staff-create", (req, res) => {
+    res.render("staff-create");
+});
+
 app.listen(3000)
